@@ -65,60 +65,45 @@
 
 
 
+
+
 ---
 
 ### 📈 Stats & Activity
 
+<!-- Codewars Stats -->
+<p align="center">
+  <img src="https://www.codewars.com/users/mkheck13/badges/large" alt="Codewars Badge" />
+</p>
+
+<!-- Top Languages -->
 <p align="center">
   <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mkheck13&layout=compact&theme=default" 
-      media="(prefers-color-scheme: light)" 
-    />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mkheck13&layout=compact&theme=synthwave" 
-      media="(prefers-color-scheme: dark)" 
-    />
-    <img 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=mkheck13&layout=compact&theme=synthwave" 
-      alt="Top Languages" 
-    />
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mkheck13&layout=compact&theme=default" media="(prefers-color-scheme: light)" />
+    <source srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mkheck13&layout=compact&theme=synthwave" media="(prefers-color-scheme: dark)" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mkheck13&layout=compact&theme=synthwave" alt="Top Languages" />
   </picture>
 </p>
 
+<!-- GitHub Stats -->
 <p align="center">
   <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=mkheck13&show_icons=true&theme=default" 
-      media="(prefers-color-scheme: light)" 
-    />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=mkheck13&show_icons=true&theme=synthwave" 
-      media="(prefers-color-scheme: dark)" 
-    />
-    <img 
-      src="https://github-readme-stats.vercel.app/api?username=mkheck13&show_icons=true&theme=synthwave" 
-      alt="GitHub Stats" 
-    />
+    <source srcset="https://github-readme-stats.vercel.app/api?username=mkheck13&show_icons=true&theme=default" media="(prefers-color-scheme: light)" />
+    <source srcset="https://github-readme-stats.vercel.app/api?username=mkheck13&show_icons=true&theme=synthwave" media="(prefers-color-scheme: dark)" />
+    <img src="https://github-readme-stats.vercel.app/api?username=mkheck13&show_icons=true&theme=synthwave" alt="GitHub Stats" />
   </picture>
 </p>
 
+<!-- Streak Stats -->
 <p align="center">
   <picture>
-    <source 
-      srcset="https://streak-stats.demolab.com/?user=mkheck13&theme=default" 
-      media="(prefers-color-scheme: light)" 
-    />
-    <source 
-      srcset="https://streak-stats.demolab.com/?user=mkheck13&theme=synthwave" 
-      media="(prefers-color-scheme: dark)" 
-    />
-    <img 
-      src="https://streak-stats.demolab.com/?user=mkheck13&theme=synthwave" 
-      alt="Streak Stats" 
-    />
+    <source srcset="https://streak-stats.demolab.com/?user=mkheck13&theme=default" media="(prefers-color-scheme: light)" />
+    <source srcset="https://streak-stats.demolab.com/?user=mkheck13&theme=synthwave" media="(prefers-color-scheme: dark)" />
+    <img src="https://streak-stats.demolab.com/?user=mkheck13&theme=synthwave" alt="Streak Stats" />
   </picture>
 </p>
+
+
 
 
 
