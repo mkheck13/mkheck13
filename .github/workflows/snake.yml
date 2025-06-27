@@ -18,7 +18,7 @@ jobs:
         with:
           github_user_name: mkheck13
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#FF00CC&color_dots=#00F0FF&color_grid=#0A0A23
+            dist/github-contribution-grid-snake.svg?color_snake=#FF00CC&color_dots=#0A0A23&color_grid=#00F0FF
             
 
       - name: Push to GitHub (output branch)
