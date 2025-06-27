@@ -3,10 +3,10 @@ name: Generate Snake Animation
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight
+    - cron: "0 0 * * *" # runs daily at midnight
 
 permissions:
-  contents: write  # 👈 REQUIRED to push to branches!
+  contents: write  # required to push to branches
 
 jobs:
   generate-snake:
@@ -21,7 +21,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Deploy to GitHub Pages (output branch)
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
@@ -29,8 +29,9 @@ jobs:
           allow_empty_commit: true
           commit_message: "🐍 update contribution snake"
           keep_history: true
-        env:
+        env:  # ✅ Only defined once here
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
           keep_history: true
         env:
