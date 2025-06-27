@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 0 * * *" # every day at midnight
 
+permissions:
+  contents: write  # 👈 REQUIRED to push to branches!
+
 jobs:
   generate-snake:
     runs-on: ubuntu-latest
@@ -25,6 +28,10 @@ jobs:
           build_dir: dist
           allow_empty_commit: true
           commit_message: "🐍 update contribution snake"
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
