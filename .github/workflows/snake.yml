@@ -19,7 +19,7 @@ jobs:
           github_user_name: mkheck13
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#0047AB&color_dots=#1D3557,#2A4971,#3A71A0,#4A8BFF
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
 
       - name: Push to GitHub (output branch)
         uses: crazy-max/ghaction-github-pages@v4
